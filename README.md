@@ -2,8 +2,6 @@
 
 **High-Performance Distributed Vision System for UAV Target Tracking**
 
-> 🚧 **Project Under Active Development** - First release coming soon!
-
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
 [![C++](https://img.shields.io/badge/C++-17-00599C.svg)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg)](https://www.python.org/)
@@ -153,7 +151,7 @@ mkdir -p ~/eagleeye_ws/src
 cd ~/eagleeye_ws/src
 
 # 2. Clone repository
-git clone https://github.com/[your-username]/EagleEye-Distributed-UAV-Vision.git
+git clone https://github.com/nisa-s/EagleEye-Distributed-UAV-Vision.git
 
 # 3. Install dependencies
 cd ~/eagleeye_ws
@@ -208,8 +206,6 @@ ros2 run ground_station detector_node
 | **GPU Usage (GS)** | <70% | **52%** | Batch processing enabled |
 | **Network Bandwidth** | <10 Mbps | **~7 Mbps** | JPEG compression (Q=85) |
 
-*Tested on: Intel i7-11800H, 16GB RAM, RTX 3060, Ubuntu 22.04*
-
 ## 🎓 Project Objectives
 
 This project was developed to demonstrate key competencies in embedded vision systems:
@@ -230,50 +226,12 @@ This project was developed to demonstrate key competencies in embedded vision sy
 - CPU optimization techniques (SIMD potential)
 - Multi-threaded processing capability
 
-## 🗺️ Development Roadmap
-
-### Phase 1: Foundation ✅
-- [x] Project repository setup
-- [x] ROS2 workspace configuration
-- [x] Basic documentation structure
-
-### Phase 2: Core Development 🚧
-- [ ] Drone node implementation (C++)
-  - [ ] Camera interface
-  - [ ] Image preprocessing
-  - [ ] ROS2 publisher
-- [ ] Ground station implementation (Python)
-  - [ ] ROS2 subscriber
-  - [ ] YOLO integration
-  - [ ] Visualization interface
-
-### Phase 3: Enhancement 📋
-- [ ] Performance optimization
-- [ ] FPS counter and metrics
-- [ ] Configuration system (YAML)
-- [ ] Launch file automation
-
-### Phase 4: Polish 📋
-- [ ] Complete documentation
-- [ ] Unit tests
-- [ ] Demo video recording
-- [ ] Code review and refactoring
-
-## 📖 Documentation
-
-Comprehensive documentation is available in the `docs/` folder:
-
-- **[Architecture Design](docs/ARCHITECTURE.md)** - System design and component interactions
-- **[Installation Guide](docs/INSTALLATION.md)** - Step-by-step setup instructions
-- **[Usage Guide](docs/USAGE.md)** - How to run and configure the system
-- **[API Reference](docs/API_REFERENCE.md)** - Node interfaces and parameters
-
 ## 🎓 Academic Context
 
 **Project Type:** Student Portfolio Project  
 **Developer:** 3rd Year Software Engineering Student  
-**Institution:** Kocaeli University
-**Duration:** ~4 weeks (January 2025)
+**Institution:** Kocaeli University  
+**Duration:** ~4 weeks
 
 ### Learning Outcomes
 - ✅ **Distributed System Design**: Publisher-subscriber pattern with ROS2
@@ -306,13 +264,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Nisanur Şen**  
-3rd Year SWE Student | Aspiring Robotics Engineer
+3rd Year Software Engineering Student
 
-📧 Email: nisssn.03@gmail.com
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com)  
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)  
-📱 GitHub: nisa-s
-(https://github.com/nisa-s)
+📧 Email: nisssn.03@gmail.com  
+💼 LinkedIn: [linkedin.com/in/nisanur-şen](https://linkedin.com)    
+📱 GitHub: nisa-s (https://github.com/nisa-s)
 
 ## 🙏 Acknowledgments
 
